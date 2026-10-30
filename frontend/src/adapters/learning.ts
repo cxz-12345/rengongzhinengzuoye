@@ -35,7 +35,7 @@ export const prompt = '猫狗分类模型训练准确率 99%，验证准确率 7
 /** 规则定义表：集中声明，便于单独测试、增删与审计。 */
 export const RULE_DEFS: ReadonlyArray<{ ruleId: RuleId; label: string; pattern: RegExp }> = [
   { ruleId: 'concept_overfitting', label: '指出过拟合概念', pattern: /过拟合|over-?fit/i },
-  { ruleId: 'gap_marked', label: '指出两者表现存在差异', pattern: /差距|不一致|不同|低于|高于|落差/ },
+  { ruleId: 'gap_marked', label: '指出两者表现存在差异', pattern: /差距|不一致|不同|低于|高于|落差|下降|下滑/ },
   { ruleId: 'numbers_cited', label: '引用了具体数值', pattern: /\d{1,3}\s*%/ },
   { ruleId: 'intervention_action', label: '提出可检验的干预措施', pattern: /增强|扩增|正则|早停|交叉验证|更多数据|简化|dropout|检查/ }
 ]
