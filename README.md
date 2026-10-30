@@ -1,6 +1,6 @@
 # MindTrace-Agent
 
-**学生入口（Local）**：启动后打开 `http://localhost:5173/`。**演示入口（Hosted）**：Not deployed。**GitHub URL**：[https://github.com/afountain/MindTrace-Agent](https://github.com/afountain/MindTrace-Agent)。**API接口**：无独立后端；本地 adapter 位于 `frontend/src/adapters/learning.ts`。
+**学生入口（Local）**：启动后打开 `http://localhost:5173/`。**演示入口（Hosted）**：Not deployed。**GitHub URL**：[https://github.com/cxz-12345/rengongzhinengzuoye](https://github.com/cxz-12345/rengongzhinengzuoye)。**API接口**：无独立后端；本地 adapter 位于 `frontend/src/adapters/learning.ts`。
 
 ## 三分钟启动
 
